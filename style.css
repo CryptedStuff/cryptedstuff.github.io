@@ -1,0 +1,40 @@
+@import url("http://fonts.cdnfonts.com/css/cascadia-mono");
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #2e2e2e;
+  color: #f7931e;
+}
+
+div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  margin: 25px auto auto auto;
+  border-radius: 50%;
+}
+
+h1,
+h3,
+p {
+  font-family: 'Cascadia Mono', monospace;
+}
+
+a {
+  text-decoration: none;
+  color: #f7931e;
+  font-family: 'Cascadia Mono';
+  font-weight: 700;
+  text-decoration: underline;
+}
+/*# sourceMappingURL=style.css.map */
